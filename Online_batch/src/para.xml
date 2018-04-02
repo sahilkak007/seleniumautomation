@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="ParameterTest">
+  <parameters>
+  <parameter  name="browser"  vakue="chrome"/>
+  <parameter  name="userid"  value="user@rediffmail.com"/>
+  <parameter  name="password"  value="pass124"/>
+  </parameters>
+    <classes>
+      <class name="Testng.Parameter_ex"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

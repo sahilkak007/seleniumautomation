@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  
+  <run>
+  
+  <include  name="smoke"></include>
+  
+  </run>
+  </groups>
+    <classes>
+      <class name="Testng.Grouping_ex"/>
+      <class name="Testng.atest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
